@@ -1,0 +1,35 @@
+@charset "UTF-8";
+html, body 
+    {height: 100%;}
+body 
+    {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    font: normal 18pt arial;
+    background-color: #6565DB}
+
+h1 
+    {text-align: center;   
+    padding: 15px;
+    color: white;}
+
+main {flex: 1 0 auto;}
+
+section 
+    {
+    text-indent: 30px;
+    width: 650px;
+    background-color: #ABABE1;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    text-align: justify;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.514);} 
+
+footer
+    {flex-shrink: 0px;
+    font-style: italic;
+    text-align: center;
+    padding: 15px;}
