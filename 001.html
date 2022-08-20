@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    
+    </header>
+
+    <main>
+        <section id="bac">
+            <div>
+                <p> Ano de Nascimento:
+                    <input type="number" name="ano" id="ano" min="0"></p>
+                <p>Sexo:
+                    <input type="radio" name="radsex" id="m" >
+                    <label for="m">Masculiino</label>
+                    <input type="radio" name="radsex" id="f">
+                    <label for="f">Feminino</label>
+                </p>
+                <p>
+                    <input type="button" value="verficiar" onclick="resultado()">
+                </p>
+            </div>
+
+
+            <div id="res">
+                Preencha os dados a cima para ver o resultado!
+
+            </div>
+            
+        </section>
+    </main>
+    
+    <footer> by Lucas Prestes <br> lucasprestes@gmail.com</footer>
+    <script src="script3.js"></script>
+</body>
+</html>

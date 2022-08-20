@@ -39,13 +39,22 @@ function resultado() {
                     img.style.width = '300px'
                     img.style.padding = '15px'
                 }
-                else {
+                else if (idade < 100) {
                     //idoso
                     res.innerHTML = `Detectamos um senhor da melhor idade com ${idade} anos`
                     img.setAttribute('src', 'imagem/velho.png')
                     img.style.width = '300px'
                     img.style.padding = '15px'
+                }else 
+                {//demonho
+                    res.innerHTML =`Dectemos que você é um vampiro, com idade de ${idade}`
+
+                    img.setAttribute('src', 'imagem/vampiro.png')
+                    img.style.width = '300px'
+                    img.style.padding = '15px'
+
                 }
+
             }
             else  if (fsex[1].checked)
             {genero = 'Mulher'
@@ -65,19 +74,26 @@ function resultado() {
                         img.style.padding = '15px'
                     }
                 else if (idade <50) 
-                {// adulto
+                {// adulta
                     res.innerHTML = `Detectamos uma  senhorita com ${idade} anos`
                     img.setAttribute('src', 'imagem/af.png')
                     img.style.width = '300px'
                     img.style.padding = '15px'
                 }
-                else {
-                //idoso
+                else if (idade < 100)
+                {
+                //idosa
                 res.innerHTML = `Detectamos uma  senhora com ${idade} anos`
                 img.setAttribute('src', 'imagem/senhora.png')
                 img.style.width = '300px'
                 img.style.padding = '15px'
                
+                } else 
+                {//demonha
+                res.innerHTML = `Dectamos que você é uma demonha com idade de ${idade}`
+                img.setAttribute('src', 'imagem/ines.png')
+                img.style.width = '300px'
+                img.style.padding = '15px'
                 }
         
         }
