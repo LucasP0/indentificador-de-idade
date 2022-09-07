@@ -33,3 +33,21 @@ footer
     font-style: italic;
     text-align: center;
     padding: 15px;}
+ footer #linkgit
+    {text-decoration: none;}
+    footer #linkgit:hover {color: rgba(186, 158, 158, 0.443);}
+
+@media screen and (max-width: 500px){
+    body {width: 100%;}
+    h1 {font-size: 20pt;}
+    #bac {width: auto;
+        
+    font-size: 12pt;}
+    #ano {width: 200px;}
+    footer {font-size: 12pt;}
+    
+
+    
+
+    
+}
